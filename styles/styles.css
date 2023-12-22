@@ -1,0 +1,346 @@
+body {
+    font-family: "Montserrat", sans-serif;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+
+.section-title {
+    color: #111;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1/17;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    }
+.section-title span {
+    color: #FD9222;
+}
+
+/*-------------header------------*/
+.header-logo {
+    color: #111;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: -0.03em;
+}
+.header-logo-italic {
+    font-style: italic;
+}
+.header-menu-link {
+    color: #111;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: -0.02em;
+}
+.header-menu-link:hover {
+    color: #FD9222;
+    cursor: pointer;
+}
+.header-menu-link:focus {
+    color: #FD9222;
+}
+/*-------------------------------*/
+/*---------------hero------------*/
+.main {}
+
+.hero {
+    background: rgba(17, 17, 17, 0.60);
+}
+
+.hero-title {
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1,21;
+    letter-spacing: -0.03em;
+}
+
+.hero-buy-btn {
+    color: #FFF;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.hero-made-btn {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.hero-down-btn {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.29;
+    letter-spacing: -0.03em;
+}
+/*-------------------------------*/
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+/*------------features-----------*/
+
+.features {
+    background: #1E1823;
+}
+
+.features-list {}
+
+.features-item {}
+
+.features-subtitle {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.features-item-text {
+    color: rgba(255, 255, 255, 0.70);
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+}
+/*-------------------------------*/
+/*-------------taste-------------*/
+
+.taste {}
+
+.taste-title {
+}
+
+
+.taste-text {
+    color: #111;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.29;
+    letter-spacing: -0.03;
+}
+
+.taste-list {
+    color: #111;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+}
+
+.taste-item {}
+
+.taste-img {}
+
+.taste-subtitle {}
+
+/*------------------------------*/
+/*-------------made-------------*/
+
+.made {}
+
+.made-title {
+}
+
+.made-img {}
+
+.made-subtitle {
+    color: #111;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.33;
+}
+
+.made-list {}
+
+.made-item {}
+
+.made-item-text {
+    color: #111;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+}
+/*------------------------------*/
+/*------------products----------*/
+
+.products{}
+
+.products-title {
+}
+
+.products-list {}
+
+.products-item {}
+
+.products-img {}
+
+.products-subtitle {
+    color: #111;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.33;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+}
+
+.products-item-text {
+    color: rgba(17, 17, 17, 0.70);
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: -0.02em;
+}
+
+.products-item-btn {
+    color: #111;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: normal;
+    cursor: pointer;
+}
+
+/*------------------------------*/
+/*------------sellers-----------*/
+
+.sellers {}
+
+.sellers-title {}
+
+.sellers-list {}
+
+.sellers-item {}
+
+.sellers-img {}
+
+.sellers-subtitle {
+    color: #111;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.33;
+    letter-spacing: -0.03;
+    text-transform: uppercase;
+}
+
+/*------------------------------*/
+/*-------------loved------------*/
+
+.loved {}
+
+.loved-title {}
+
+.section-title {}
+
+.loved-list {}
+
+.loved-item {}
+
+.loved-img {}
+
+.loved-subtitle {
+    color: #111;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.33;
+}
+
+.loved-item-text {
+    color: rgba(17, 17, 17, 0.70);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+}
+
+.loved-btn-review {
+    color: #111;
+    font-family: inherit;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+/*------------------------------*/
+/*-------------footer-----------*/
+
+.footer {
+    background: #1E1823;
+}
+
+.footer-heading {
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: -0.56px;
+}
+.footer-heading span {
+    color: #FD9222;
+}
+
+.footer-subtitle {
+    color: #FFF;
+    
+        text-align: center;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 1.29;
+}
+
+.footer-soc-list {}
+
+.footer-soc-link {
+    color: #FFF;
+}
+
+.footer-addres {
+    font-style: normal;
+}
+
+.footer-addres-list {}
+
+.footer-addres-item {color: #FFF;}
+
+.footer-addres-link {
+}
+
+.footer-navigation {}
+
+.footer-navigation-list {}
+
+.footer-navigation-item {}
+
+.footer-navigation-link {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: -0.02;color: #FFF;
+}
