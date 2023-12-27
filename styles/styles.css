@@ -1,11 +1,39 @@
 body {
     font-family: "Montserrat", sans-serif;
 }
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
 a {
     text-decoration: none;
+    color: currentColor
 }
 ul {
     list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+
+}
+
+button {
+    cursor: pointer;
+}
+.address {
+    font-style: normal;
+}
+.container {
+    max-width: 100%;
+    width: 1166px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
 }
 
 .section-title {
@@ -22,6 +50,11 @@ ul {
 }
 
 /*-------------header------------*/
+.header {
+    padding-top: 24px;
+    padding-bottom: 32px;
+}
+
 .header-logo {
     color: #111;
     font-size: 18px;
@@ -51,7 +84,12 @@ ul {
 .main {}
 
 .hero {
+    padding-bottom: 80px;
+}
+.hero-container {
     background: rgba(17, 17, 17, 0.60);
+    border-radius: 30px;
+    padding: 380px 40px 40px 40px;
 }
 
 .hero-title {
@@ -60,6 +98,8 @@ ul {
     font-weight: 500;
     line-height: 1,21;
     letter-spacing: -0.03em;
+    margin-bottom: 32px;
+    max-width: 484px;
 }
 
 .hero-buy-btn {
@@ -104,6 +144,8 @@ ul {
 
 .features {
     background: #1E1823;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .features-list {}
@@ -115,6 +157,7 @@ ul {
     font-size: 18px;
     font-weight: 600;
     line-height: normal;
+    margin-bottom: 18px;
 }
 
 .features-item-text {
@@ -126,9 +169,14 @@ ul {
 /*-------------------------------*/
 /*-------------taste-------------*/
 
-.taste {}
+.taste {
+    padding-top: 120px;
+}
 
 .taste-title {
+    margin-bottom: 28px;
+    max-width: 412px;
+    margin: 0 auto 28px;
 }
 
 
