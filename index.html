@@ -15,7 +15,7 @@
   </head>
   <body>
     <header class="header">
-      <div class="container">
+      <div class="container header-container">
         <nav class="header-navigation">
           <a class="header-logo" href="">
             <span class="header-logo-italic">SIMPLY</span> CHOCOLATE
@@ -36,15 +36,19 @@
               <a href="" class="header-menu-link">Chocolate is loved</a>
             </li>
           </ul>
-          <ul class="header-soc-lisl">
+        </nav>
+        <ul class="header-soc-lisl">
             <li>
               <a
                 class="header-soc-item"
                 href=""
                 target="_blank"
                 rel="noopener noreferrer"
-              ></a
-              >insta
+              >
+              <svg width="24" height="24" class="header-soc-icon">
+                <use href="./img/icons-chocolate.svg#icon-instagram"></use>
+              </svg></a
+              >
             </li>
             <li class="header-soc-item">
               <a
@@ -52,8 +56,11 @@
                 href=""
                 target="_blank"
                 rel="noopener noreferrer"
-              ></a
-              >fb
+              >
+              <svg width="24" height="24" class="header-soc-icon">
+                <use href="./img/icons-chocolate.svg#icon-facebook"></use>
+              </svg></a
+              >
             </li>
             <li class="header-soc-item">
               <a
@@ -61,11 +68,13 @@
                 href=""
                 target="_blank"
                 rel="noopener noreferrer"
-              ></a
-              >twit
+              >
+              <svg width="24" height="24" class="header-soc-icon">
+                <use href="./img/icons-chocolate.svg#icon-twitter"></use>
+              </svg></a
+              >
             </li>
           </ul>
-        </nav>
       </div>
     </header>
     <main class="main">
@@ -75,9 +84,11 @@
             Treat yourself or a loved one to our finest ingredients for a moment
             of pure delight!
           </h1>
-          <button type="button" class="hero-buy-btn">Buy now</button>
-          <a href="#made" class="hero-made-btn">How it’s made</a>
-          <a href="" class="hero-down-btn">scroll down</a>
+          <div class="hero-buttons">
+            <button type="button" class="hero-buy-btn">Buy now</button>
+            <a href="#made" class="hero-made-btn">How it’s made</a>
+            <a href="" class="hero-down-btn">scroll down</a>
+          </div>
         </div>
       </section>
       <section class="features">
@@ -213,153 +224,161 @@
       <section id="made" class="made">
         <div class="container">
         <h2 class="made-title section-title">HOW IT’S <span>MADE?</span></h2>
-        <img
-          src="./img/image-chocolate-made.jpg"
-          alt="liquid Chocolate"
-          width="600"
-          height="400"
-          class="made-img"
-        />
-        <h3 class="made-subtitle">
-          Try our chocolates today and discover the perfect balance of flavor
-        </h3>
-        <ul class="made-list">
-          <li class="made-item">
-            <p class="made-item-text">
-              Heat the milk in a saucepan without bringing it to a boil. Add
-              sugar and cocoa powder.
-            </p>
-          </li>
-          <li class="made-item">
-            <p class="made-item-text">
-              At the same time, prepare a water bath. Melt the butter on it.
-            </p>
-          </li>
-          <li class="made-item">
-            <p class="made-item-text">
-              "Mix" the milk mixture and already liquid butter. Mix thoroughly
-              with a silicone spatula so that the mass becomes uniform and
-              silky.
-            </p>
-          </li>
-          <li class="made-item">
-            <p class="made-item-text">
-              Heat the mixture over low heat, letting it barely boil.
-            </p>
-          </li>
-          <li class="made-item">
-            <p class="made-item-text">
-              Pour the chocolate into special containers (can be replaced with
-              ice molds). Allow to cool and harden.
-            </p>
-          </li>
-        </ul>
+        <div class="made-wrap">
+          <img
+            src="./img/image-chocolate-made.jpg"
+            alt="liquid Chocolate"
+            width="600"
+            height="400"
+            class="made-img"
+          />
+          <div class="made-content">
+            <h3 class="made-subtitle">
+              Try our chocolates today and discover the perfect balance of flavor
+            </h3>
+            <ul class="made-list">
+              <li class="made-item">
+                <p class="made-item-text">
+                  Heat the milk in a saucepan without bringing it to a boil. Add
+                  sugar and cocoa powder.
+                </p>
+              </li>
+              <li class="made-item">
+                <p class="made-item-text">
+                  At the same time, prepare a water bath. Melt the butter on it.
+                </p>
+              </li>
+              <li class="made-item">
+                <p class="made-item-text">
+                  "Mix" the milk mixture and already liquid butter. Mix thoroughly
+                  with a silicone spatula so that the mass becomes uniform and
+                  silky.
+                </p>
+              </li>
+              <li class="made-item">
+                <p class="made-item-text">
+                  Heat the mixture over low heat, letting it barely boil.
+                </p>
+              </li>
+              <li class="made-item">
+                <p class="made-item-text">
+                  Pour the chocolate into special containers (can be replaced with
+                  ice molds). Allow to cool and harden.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
       </section>
       <section class="products">
         <div class="container">
         <h2 class="products-title section-title">OUR <span>PRODUCTS</span></h2>
-        <ul class="products-list">
-          <li class="products-item">
-            <img
-              src="./img/img-1-orange-dark.jpg"
-              alt="Dark chocolate"
-              width="230"
-              height="201"
-              class="products-img"
-            />
-            <h3 class="products-subtitle">orange</h3>
-            <p class="products-item-text">Dark chocolate</p>
-            <button type="button" class="products-item-btn">45</button>
-          </li>
-          <li class="products-item">
-            <img
-              src="./img/img-2-apple-cranberry.jpg"
-              alt="Milk chocolate"
-              width="230"
-              height="201"
-              class="products-img"
-            />
-            <h3 class="products-subtitle">APPLE&CRANBERRY</h3>
-            <p class="products-item-text">Milk chocolate</p>
-            <button type="button" class="products-item-btn">50</button>
-          </li>
-          <li class="products-item">
-            <img
-              src="./img/img-3-lime-seasalt.jpg"
-              alt="lime&sea salt"
-              width="230"
-              height="201"
-              class="products-img"
-            />
-            <h3 class="products-subtitle">lime&sea salt</h3>
-            <p class="products-item-text">Dark chocolate</p>
-            <button type="button" class="products-item-btn">66</button>
-          </li>
-          <li class="products-item">
-            <img
-              src="./img/img-4-pineapple.jpg"
-              alt="pineapple chocolate"
-              width="230"
-              height="201"
-              class="products-img"
-            />
-            <h3 class="products-subtitle">pineapple</h3>
-            <p class="products-item-text">Dark chocolate</p>
-            <button type="button" class="products-item-btn">54</button>
-          </li>
-          <li class="products-item">
-            <img
-              src="./img/img-5-classic-milk.jpg"
-              alt="Milk chocolate"
-              width="230"
-              height="201"
-              class="products-img"
-            />
-            <h3>Classic</h3>
-            <p class="products-item-text">Milk chocolate</p>
-            <button type="button" class="products-item-btn">45</button>
-          </li>
-          <li class="products-item">
-            <img
-              src="./img/img-6-honey.jpg"
-              alt="Honey chocolate"
-              width="230"
-              height="201"
-              class="products-img"
-            />
-            <h3 class="products-subtitle">Honey</h3>
-            <p class="products-item-text">Milk chocolate</p>
-            <button type="button" class="products-item-btn">50</button>
-          </li>
-          <li class="products-item">
-            <img
-              src="./img/img-7-roasted.jpg"
-              alt="Roasted fruits"
-              width="230"
-              height="201"
-              class="products-img"
-            />
-            <h3 class="products-subtitle">Roasted fruits</h3>
-            <p class="products-item-text">Dark chocolate</p>
-            <button type="button" class="products-item-btn">66</button>
-          </li>
-          <li class="products-item">
-            <img
-              src="./img/img-8-white.jpg"
-              alt="White chocolate"
-              width="230"
-              height="201"
-              class="products-img"
-            />
-            <h3 class="products-subtitle">Classic</h3>
-            <p class="products-item-text">White chocolate</p>
-            <button type="button" class="products-item-btn">54</button>
-          </li>
-        </ul>
+
+        <div class="products-cards">
+          <ul class="products-list">
+            <li class="products-item">
+              <img
+                src="./img/img-1-orange-dark.jpg"
+                alt="Dark chocolate"
+                width="230"
+                height="201"
+                class="products-img"
+              />
+              <h3 class="products-subtitle">orange</h3>
+              <p class="products-item-text">Dark chocolate</p>
+              <button type="button" class="products-item-btn">45</button>
+            </li>
+            <li class="products-item">
+              <img
+                src="./img/img-2-apple-cranberry.jpg"
+                alt="Milk chocolate"
+                width="230"
+                height="201"
+                class="products-img"
+              />
+              <h3 class="products-subtitle">APPLE&CRANBERRY</h3>
+              <p class="products-item-text">Milk chocolate</p>
+              <button type="button" class="products-item-btn">50</button>
+            </li>
+            <li class="products-item">
+              <img
+                src="./img/img-3-lime-seasalt.jpg"
+                alt="lime&sea salt"
+                width="230"
+                height="201"
+                class="products-img"
+              />
+              <h3 class="products-subtitle">lime&sea salt</h3>
+              <p class="products-item-text">Dark chocolate</p>
+              <button type="button" class="products-item-btn">66</button>
+            </li>
+            <li class="products-item">
+              <img
+                src="./img/img-4-pineapple.jpg"
+                alt="pineapple chocolate"
+                width="230"
+                height="201"
+                class="products-img"
+              />
+              <h3 class="products-subtitle">pineapple</h3>
+              <p class="products-item-text">Dark chocolate</p>
+              <button type="button" class="products-item-btn">54</button>
+            </li>
+            <li class="products-item">
+              <img
+                src="./img/img-5-classic-milk.jpg"
+                alt="Milk chocolate"
+                width="230"
+                height="201"
+                class="products-img"
+              />
+              <h3>Classic</h3>
+              <p class="products-item-text">Milk chocolate</p>
+              <button type="button" class="products-item-btn">45</button>
+            </li>
+            <li class="products-item">
+              <img
+                src="./img/img-6-honey.jpg"
+                alt="Honey chocolate"
+                width="230"
+                height="201"
+                class="products-img"
+              />
+              <h3 class="products-subtitle">Honey</h3>
+              <p class="products-item-text">Milk chocolate</p>
+              <button type="button" class="products-item-btn">50</button>
+            </li>
+            <li class="products-item">
+              <img
+                src="./img/img-7-roasted.jpg"
+                alt="Roasted fruits"
+                width="230"
+                height="201"
+                class="products-img"
+              />
+              <h3 class="products-subtitle">Roasted fruits</h3>
+              <p class="products-item-text">Dark chocolate</p>
+              <button type="button" class="products-item-btn">66</button>
+            </li>
+            <li class="products-item">
+              <img
+                src="./img/img-8-white.jpg"
+                alt="White chocolate"
+                width="230"
+                height="201"
+                class="products-img"
+              />
+              <h3 class="products-subtitle">Classic</h3>
+              <p class="products-item-text">White chocolate</p>
+              <button type="button" class="products-item-btn">54</button>
+            </li>
+          </ul>
+        </div>
       </section>
       <section class="sellers">
         <h2 class="sellers section-title">Top <span>sellers</span></h2>
+        <div class="sellers-container container">
         <ul class="sellers-list">
           <li class="sellers-item">
             <img
@@ -392,6 +411,7 @@
             <h3 class="sellers-subtitle">Dark chocolate</h3>
           </li>
         </ul>
+      </div>
       </div>
       </section>
       <section class="loved">
@@ -453,30 +473,34 @@
       <p class="footer-heading">
         <span>Chocolate</span> a delicious cure for a bad day
       </p>
-      <p class="footer-subtitle">Social networks</p>
-      <ul class="footer-soc-list">
-        <li class="footer-soc-link">
-          <a href="" target="_blank" rel="noopener noreferrer"></a>insta
-        </li>
-        <li class="footer-soc-link">
-          <a href="" target="_blank" rel="noopener noreferrer"></a>fb
-        </li>
-        <li class="footer-soc-link">
-          <a href="" target="_blank" rel="noopener noreferrer"></a>twit
-        </li>
-      </ul>
-      <p class="footer-subtitle">Contact us</p>
-      <address class="footer-addres">
-        <ul class="footer-addres-list">
-          <li class="footer-addres-item">
-            <a class="footer-addres-link" href="tel:+380684439426"></a>+380 (68)
-            443-94-26
+      <div class="footer-soc-container">
+        <p class="footer-subtitle">Social networks</p>
+        <ul class="footer-soc-list">
+          <li class="footer-soc-link">
+            <a href="" target="_blank" rel="noopener noreferrer">insta</a>
           </li>
-          <li class="footer-addres-item">
-            <a class="footer-addres-link" href="mailto:simplychoc@gmail.com"></a
-            >simplychoc@gmail.com
+          <li class="footer-soc-link">
+            <a href="" target="_blank" rel="noopener noreferrer">fb</a>
+          </li>
+          <li class="footer-soc-link">
+            <a href="" target="_blank" rel="noopener noreferrer">twit</a>
           </li>
         </ul>
+      </div>
+      <div class="footer-addres-container">
+        <p class="footer-subtitle">Contact us</p>
+        <address class="footer-addres">
+          <ul class="footer-addres-list">
+            <li class="footer-addres-item">
+              <a class="footer-addres-link" href="tel:+380684439426"></a>+380 (68)
+              443-94-26
+            </li>
+            <li class="footer-addres-item">
+              <a class="footer-addres-link" href="mailto:simplychoc@gmail.com"></a
+              >simplychoc@gmail.com
+            </li>
+          </ul>
+      </div>
       </address>
       <nav class="footer-navigation">
         <ul class="footer-navigation-list">
