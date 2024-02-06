@@ -306,7 +306,7 @@ stroke: #FAFAFA;
     top: 0;
     position: absolute;
     display: block;
-    background-color: #FFFFFF;
+    background-color: rgba(255, 255, 255, 0.5);
     top: 50%;
     transform: translateY(-50%);
 }
@@ -381,6 +381,18 @@ stroke: #FAFAFA;
     padding: 28px 23px;
 }
 
+.orange {
+    background-color: #FD9222;
+}
+.orange > .taste-subtitle {
+color: #FAFAFA;
+}
+.dark {
+    background-color: #1E1823;
+}
+.dark > .taste-subtitle {
+    color: #FAFAFA;
+}
 .taste-img {
     margin: 0 auto;
     margin-bottom: 36px;
