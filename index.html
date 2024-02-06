@@ -86,9 +86,10 @@
             <a href="#made" class="hero-made-btn">How it’s made</a>
             <a href="" class="hero-down-btn"
               >scroll down
-              <svg width="38" height="38" class="scroll-icon">
-                <use href="./img/icons-chocolate.svg#icon-hero-scroll"></use>
-              </svg>
+                <svg width="38" height="38" class="scroll-icon">
+                  <use href="./img/icons-chocolate.svg#icon-hero-scroll">
+                  </use>
+                </svg>
             </a>
           </div>
         </div>
@@ -98,6 +99,11 @@
         <div class="container">
           <ul class="features-list">
             <li class="features-item">
+              <div class="feat-icon-border">
+                <svg width="32" height="32" class="features-icon">
+                  <use href="./img/icons-chocolate.svg#icon-features-icon"></use>
+                </svg>
+              </div>
               <h3 class="features-subtitle">Unsurpassed taste</h3>
               <p class="features-item-text">
                 Crafted with the finest quality cocoa beans and a dedication to
@@ -106,7 +112,12 @@
                 Unsurpassed Taste and discover a new level of chocolate bliss.
               </p>
             </li>
-            <li class="features-item">
+            <div class="features-item">
+              <div class="feat-icon-border">
+              <svg width="32" height="32" class="features-icon">
+                <use href="./img/icons-chocolate.svg#icon-features-icon-Coin"></use>
+              </svg>
+            </div>
               <h3 class="features-subtitle">Affordable price</h3>
               <p class="features-item-text">
                 Indulge in high-quality chocolate without breaking the bank with
@@ -117,6 +128,11 @@
               </p>
             </li>
             <li class="features-item">
+              <div class="feat-icon-border">
+                <svg width="32" height="32" class="features-icon">
+                  <use href="./img/icons-chocolate.svg#icon-features-icon-spoon"></use>
+                </svg>
+              </div>
               <h3 class="features-subtitle">Own production</h3>
               <p class="features-item-text">
                 We take pride in our own production process, ensuring that every
@@ -511,90 +527,145 @@
     </main>
 
     <footer class="footer">
-        <div class="footer-top-container">
+      <div class="container">
+        <div class="footer-top">
           <p class="footer-heading">
             <span>Chocolate</span> a delicious cure for a bad day
           </p>
-          <div class="footer-soc-container">
+          <div class="footer-soc">
             <p class="footer-subtitle">Social networks</p>
-              <ul class="footer-soc-list">
-                <li class="footer-soc-link">
-                  <a href="" target="_blank" rel="noopener noreferrer"
-                    ><svg width="24" height="24" class="footer-soc-icon">
-                      <use href="./img/icons-chocolate.svg#icon-instagram"></use></svg
-                  ></a>
+            <ul class="footer-soc-list">
+              <li class="footer-soc-item">
+                <a
+                  class="footer-soc-link"
+                  href=""
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><svg width="24" height="24" class="footer-soc-icon">
+                    <use
+                      href="./img/icons-chocolate.svg#icon-instagram"
+                    ></use></svg
+                ></a>
+              </li>
+              <li class="footer-soc-item">
+                <a
+                  class="footer-soc-link"
+                  href=""
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><svg width="24" height="24" class="footer-soc-icon">
+                    <use
+                      href="./img/icons-chocolate.svg#icon-facebook"
+                    ></use></svg
+                ></a>
+              </li>
+              <li class="footer-soc-item">
+                <a
+                  class="footer-soc-link"
+                  href=""
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><svg width="24" height="24" class="footer-soc-icon">
+                    <use
+                      href="./img/icons-chocolate.svg#icon-twitter"
+                    ></use></svg
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-contacts">
+            <p class="footer-subtitle">Contact us</p>
+            <address class="footer-address">
+              <ul class="footer-address-list">
+                <li class="footer-address-item">
+                  <a class="footer-address-link" href="tel:+380684439426"
+                    >+380 (68) 443-94-26</a
+                  >
                 </li>
-                <li class="footer-soc-link">
-                  <a href="" target="_blank" rel="noopener noreferrer"
-                    ><svg width="24" height="24" class="footer-soc-icon">
-                      <use href="./img/icons-chocolate.svg#icon-facebook"></use></svg
-                  ></a>
-                </li>
-                <li class="footer-soc-link">
-                  <a href="" target="_blank" rel="noopener noreferrer"
-                    ><svg width="24" height="24" class="footer-soc-icon">
-                      <use href="./img/icons-chocolate.svg#icon-twitter"></use></svg
-                  ></a>
+                <li class="footer-address-item">
+                  <a
+                    class="footer-address-link"
+                    href="mailto:simplychoc@gmail.com"
+                    >simplychoc@gmail.com</a
+                  >
                 </li>
               </ul>
-            </div>
-            <div class="footer-addres-container">
-              <p class="footer-subtitle">Contact us</p>
-              <address class="footer-addres">
-                <ul class="footer-addres-list">
-                  <li class="footer-addres-item">
-                    <a class="footer-addres-link" href="tel:+380684439426"></a>+380
-                    (68) 443-94-26
-                  </li>
-                  <li class="footer-addres-item">
-                    <a
-                      class="footer-addres-link"
-                      href="mailto:simplychoc@gmail.com"
-                    ></a
-                    >simplychoc@gmail.com
-                  </li>
-                </ul>
-              </address>
-            </div>
+            </address>
           </div>
-        <div class="footer-bottom-container">
+        </div>
+        <div class="footer-bottom">
           <nav class="footer-navigation">
-            <ul class="footer-navigation-list">
-              <li class="footer-navigation-item">
-                <a class="footer-navigation-link" href="">Home</a>
+            <ul class="footer-menu-list">
+              <li class="footer-menu-item">
+                <a class="footer-menu-link" href="">Home my</a>
               </li>
-              <li class="footer-navigation-item">
-                <a class="footer-navigation-link" href="">How it’s made?</a>
+              <li class="footer-menu-item">
+                <a class="footer-menu-link" href="">How it’s made?</a>
               </li>
-              <li class="footer-navigation-item">
-                <a class="footer-navigation-link" href="">Chocolate is loved</a>
+              <li class="footer-menu-item">
+                <a class="footer-menu-link" href="">Chocolate is loved</a>
               </li>
             </ul>
           </nav>
           <form class="footer-form">
-                <input
-                  type="email"
-                  name="footer-email"
-                  class="footer-input"
-                  placeholder="Enter your email"
-                  aria-label="footer input"
-                />
-                <button type="submit" class="footer-form-btn">Subscribe</button>
-              </form>
-        <div class="modal-field">
-              <label class="modal-label"
-                ><span>Phone number</span>
-                <input
-                  type="tel"
-                  required
-                  name="user-tel"
-                  class="modal-input"
-                  placeholder="User phone"
-                  value="+380"
-                />
-              </label>
-            </div>
+            <input
+              type="email"
+              name="footer-email"
+              class="footer-input"
+              placeholder="Enter your email"
+              aria-label="footer input"
+            />
+            <button type="submit" class="footer-form-btn">Subscribe</button>
+          </form>
+        </div>
       </div>
+    </footer>
+
+    <div class="backdrop">
+      <div class="modal">
+        <button type="button" class="modal-close-btn">X</button>
+        <p class="modal-title section-title">
+          LEAVE A REVIEW ABOUT <span>OUR CHOCOLATE</span>
+        </p>
+        <form class="modal-form">
+          <div class="modal-field">
+            <label for="user-name" class="modal-label">Name</label>
+            <div class="modal-input-wrap">
+              <input
+                type="text"
+                name="user-name"
+                class="modal-input"
+                placeholder="David"
+                id="user-name"
+              />
+              <svg class="modal-icon" width="24" height="24">
+                <use href="./img/icons.svg#icon-user"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="modal-field">
+            <label for="user-email" class="modal-label">Email</label>
+            <input
+              type="email"
+              name="user-email"
+              class="modal-input"
+              placeholder="test@mail.com"
+              id="user-email"
+            />
+          </div>
+          <div class="modal-field">
+            <label class="modal-label"
+              ><span>Phone number</span>
+              <input
+                type="tel"
+                required
+                name="user-tel"
+                class="modal-input"
+                placeholder="User phone"
+                value="+380"
+              />
+            </label>
+          </div>
           <div class="modal-field">
             <label for="user-comment" class="modal-label">Comment</label>
             <textarea
@@ -625,6 +696,6 @@
           <button type="submit">Send</button>
         </form>
       </div>
-    </footer>
+    </div>
   </body>
 </html>
